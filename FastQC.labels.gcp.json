@@ -1,0 +1,9 @@
+{
+    "pipelineType": "FastQC",
+    "project": "arudensky-CD4TCR",
+    "sample": "B6_gp66_tet_d7",
+    "owner": "chunj",
+    "destination": "gs://chunj-cromwell/outputs/arudensky-CD4TCR/B6_gp66_tet_d7",
+    "transfer": "-",
+    "comment": "FastQC Pipeline"    
+}

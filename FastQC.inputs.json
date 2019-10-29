@@ -1,0 +1,10 @@
+{
+    "FastQC.fastqFiles": [
+        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S2_L001_R1_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S2_L001_R2_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L001_R1_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L001_R2_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L002_R1_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L002_R2_001.fastq.gz"
+    ]
+}
