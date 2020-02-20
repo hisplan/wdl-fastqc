@@ -29,9 +29,6 @@ then
     exit 1
 fi
 
-rm -rf FastQC.deps.zip
-zip FastQC.deps.zip modules modules/*
-
 cromwell-tools submit \
     --secrets-file ${service_account_key} \
     --wdl FastQC.wdl \
