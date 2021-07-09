@@ -3,4 +3,4 @@
 java -jar ~/Applications/womtool.jar \
     validate \
     FastQC.wdl \
-    --inputs FastQC.inputs.json
+    --inputs ./config/test.inputs.aws.json
