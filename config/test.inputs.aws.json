@@ -1,10 +1,9 @@
 {
     "FastQC.fastqFiles": [
-        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S2_L001_R1_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S2_L001_R2_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L001_R1_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L001_R2_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L002_R1_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/CD4TCR/B6_gp66_tet_d7/FASTQ/472_B6_gp66_tet_d7_IGO_09290_1_S6_L002_R2_001.fastq.gz"
-    ]
+        "s3://dp-lab-data/collaborators/joynera/NepInjuryTimeCourse/NEPs/barcode/2727_NEPs_IGO_12109_46_S25_L003_R1_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/joynera/NepInjuryTimeCourse/NEPs/barcode/2727_NEPs_IGO_12109_46_S25_L004_R1_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/joynera/NepInjuryTimeCourse/NEPs/genomic/2727_NEPs_IGO_12109_46_S25_L003_R2_001.fastq.gz",
+        "s3://dp-lab-data/collaborators/joynera/NepInjuryTimeCourse/NEPs/genomic/2727_NEPs_IGO_12109_46_S25_L004_R2_001.fastq.gz"
+    ],
+    "FastQC.dockerRegistry": "583643567512.dkr.ecr.us-east-1.amazonaws.com"
 }
