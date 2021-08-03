@@ -1,5 +1,7 @@
 # wdl-fastqc
 
+A high throughput sequence QC analysis tool
+
 ## Submitting a Job
 
 ```bash
@@ -13,7 +15,8 @@
 ## Helper Utilities
 
 ```bash
-./get-fastq-list-from-s3.sh -p s3://dp-lab-data/collaborators/lowe/p53_loss_enrichment/Preclinical_SP_batch1/genomic/
+$ ./get-fastq-list-from-s3.sh \
+    -p s3://dp-lab-data/collaborators/lowe/p53_loss_enrichment/Preclinical_SP_batch1/genomic/
 
 s3://dp-lab-data/collaborators/lowe/p53_loss_enrichment/Preclinical_SP_batch1/genomic/1740_Preclinical_SP_batch1_IGO_10682_11_S11_L001_R2_001.fastq.gz
 s3://dp-lab-data/collaborators/lowe/p53_loss_enrichment/Preclinical_SP_batch1/genomic/1740_Preclinical_SP_batch1_IGO_10682_11_S11_L002_R2_001.fastq.gz
