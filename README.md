@@ -2,13 +2,26 @@
 
 A high throughput sequence QC analysis tool
 
+## Setup
+
+The pipeline is a part of SCING (Single-Cell pIpeliNe Garden; pronounced as "sing" /siŋ/). For setup, please refer to [this page](https://github.com/hisplan/scing). All the instructions below is given under the assumption that you have already configured SCING in your environment.
+
+## Create Job Files
+
+You need two files to run the FastQC pipeline - one inputs file and one labels file. Use the following example files to help you create your job file:
+
+- `config/template.inputs.json`
+- `config/template.labels.json`
+
 ## Submitting a Job
 
 ```bash
+conda activate scing
+
 ./submit.sh \
-    -k ~/tent/keys/secrets-aws.json \
-    -i config/Preclinical_SP_batch1.inputs.json \
-    -l config/Preclinical_SP_batch1.labels.json \
+    -k ~/keys/cromwell-secrets.json \
+    -i configs/sample.inputs.json \
+    -l configs/sample.labels.json \
     -o FastQC.options.aws.json
 ```
 

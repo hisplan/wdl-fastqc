@@ -2,7 +2,7 @@
 
 wf_name="fastqc"
 version="0.11.9"
-files="submit.sh FastQC.deps.zip FastQC.wdl FastQC.options.aws.json"
+files="submit.sh FastQC.deps.zip FastQC.wdl FastQC.options.aws.json config/template.*.json"
 dest="$HOME/scing/bin"
 
 usage()
@@ -36,7 +36,7 @@ mkdir -p ${dest}
 # create a temporary directory and copy files
 path_workdir=`mktemp -d`
 mkdir -p ${path_workdir}/${wf_name}-${version}
-cp ${files} ${path_workdir}/${wf_name}-${version}/
+rsync -Rv ${files} ${path_workdir}/${wf_name}-${version}/
 
 # tar-gzip
 cd ${path_workdir}
